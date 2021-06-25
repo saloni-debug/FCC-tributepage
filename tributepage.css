@@ -1,0 +1,100 @@
+html{
+    font-size: 10px;
+  }
+  #main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%
+    }
+  body{
+     background: url('https://image.shutterstock.com/image-vector/seamless-background-made-paisley-vivid-260nw-125490848.jpg');
+    background-size: cover;
+    font-family: Sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  h1{
+    text-align: center;
+    font-size: 4rem;
+    color: #090938 ;
+  }
+  h3{
+    text-align: left;
+    color: #090938 ;
+  }
+  #img-div{
+    vertical-align: top;
+    width: 40%;
+    display: inline-block;
+  }
+  #img-caption{
+    font-family: cursive;
+    text-align: center;
+    color: #090938 ;
+    
+  }
+  #image{
+    max-width: 480px;
+    height: auto;
+    display: block;
+    animation-name: twinkle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+  }
+  @keyframes twinkle{
+    20%{
+      transform: scale(0.8);
+      opacity: 0.5;
+    }
+  }
+  #tribute-info{
+    width: 57%;
+    display: inline-block;
+    padding: 10px 10px -10px 10px;
+  }
+  .sub1{
+    text-decoration: underline;
+    text-align: center;
+    color: #090938;
+  }
+  .text{
+    color:#090938;
+    text-align: justify;
+  }
+  .info_part2  h2{
+    text-decoration: underline;
+    color: #090938;
+  }
+  li > a{
+    color: #090938;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #090938;
+  }
+  a:active {
+    color: darkred;
+  }
+  footer{
+    margin: 10px 0px ;
+    text-align: right;
+    color: #090938;
+    }
+  @media (max-width: 380px) {
+    #img-div {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
+    #img-caption {
+      font-size: 1.4rem;
+      text-align: center;
+    }
+    #image,#tribute-info{
+      width: 100%;
+    }
+   }
+  
+  
+  
